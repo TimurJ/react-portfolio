@@ -45,7 +45,7 @@ const Hero = () => {
               <h1>That Deliver Results</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Timur a Frontend developer based in London with a passion for code.
+              Hi, I'm Timur a Frontend Specialist based in London with a passion for tech.
             </p>
             <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
           </div>

@@ -29,74 +29,86 @@ const words = [
 ]
 
 const counterItems = [
-  { value: 15, suffix: '+', label: 'Years of Experience' },
-  { value: 200, suffix: '+', label: 'Satisfied Clients' },
-  { value: 108, suffix: '+', label: 'Completed Projects' },
-  { value: 90, suffix: '%', label: 'Client Retention Rate' },
+  { value: 4, suffix: '+', label: 'Years of Experience' },
+  { value: 5, suffix: '+', label: 'Completed Projects' },
+  { value: 500, suffix: '+', label: 'Project Contributions' },
+  { value: 100, suffix: '%', label: 'Of Deadlines Met' },
 ]
 
 const logoIconsList = [
   {
-    imgPath: '/images/logos/company-logo-1.png',
-    name: 'adidas',
+    imgPath: '/images/logos/html-5.svg',
+    name: 'html-5',
   },
   {
-    imgPath: '/images/logos/company-logo-2.png',
-    name: 'docker',
+    imgPath: '/images/logos/css-3.svg',
+    name: 'css-3',
   },
   {
-    imgPath: '/images/logos/company-logo-3.png',
-    name: 'hostinger',
+    imgPath: '/images/logos/javascript.svg',
+    name: 'javascript',
   },
   {
-    imgPath: '/images/logos/company-logo-4.png',
-    name: 'adobe',
+    imgPath: '/images/logos/react.svg',
+    name: 'react',
   },
   {
-    imgPath: '/images/logos/company-logo-5.png',
-    name: 'appwrite',
+    imgPath: '/images/logos/typescript.svg',
+    name: 'typescript',
   },
   {
-    imgPath: '/images/logos/company-logo-6.png',
-    name: 'nvidia',
+    imgPath: '/images/logos/redux.svg',
+    name: 'redux',
   },
   {
-    imgPath: '/images/logos/company-logo-7.png',
-    name: 'microsoft',
+    imgPath: '/images/logos/visual-studio-code.svg',
+    name: 'vscode',
   },
   {
-    imgPath: '/images/logos/company-logo-8.png',
+    imgPath: '/images/logos/vercel.svg',
     name: 'vercel',
   },
   {
-    imgPath: '/images/logos/company-logo-9.png',
-    name: 'linear',
+    imgPath: '/images/logos/next-js.svg',
+    name: 'nextJS',
   },
   {
-    imgPath: '/images/logos/company-logo-10.png',
-    name: 'shopify',
+    imgPath: '/images/logos/docker.svg',
+    name: 'docker',
   },
   {
-    imgPath: '/images/logos/company-logo-11.png',
-    name: 'loom',
+    imgPath: '/images/logos/node-js.svg',
+    name: 'nodeJS',
+  },
+  {
+    imgPath: '/images/logos/git.svg',
+    name: 'git',
+  },
+  {
+    imgPath: '/images/logos/github.svg',
+    name: 'github',
+  },
+  {
+    imgPath: '/images/logos/npm.svg',
+    name: 'npm',
   },
 ]
 
 const abilities = [
   {
     imgPath: '/images/seo.png',
-    title: 'Quality Focus',
-    desc: 'Delivering high-quality results while maintaining attention to every detail.',
+    title: 'Quality Focused',
+    desc: 'Focused on delivering robust, maintainable, high quality code through the use use of latest best practices, robust frontend frameworks like React, extensive Unit and End to End testing and CI/CD pipelines.',
   },
   {
     imgPath: '/images/chat.png',
-    title: 'Reliable Communication',
-    desc: 'Keeping you updated at every step to ensure transparency and clarity.',
+    title: 'Excellent Communication',
+    desc: 'Multiple years of experience collaborating both with technical and non technical team members, able to discuss and understand client requirements with management, able to articulate technical knowledge clearly.',
   },
   {
     imgPath: '/images/time.png',
-    title: 'On-Time Delivery',
-    desc: 'Making sure projects are completed on schedule, with quality & attention to detail.',
+    title: 'Deadline Efficient',
+    desc: 'Making sure each ticket gets delivered on time and sprint goals are met, through the use of team estimation and prior experience. Confident in identifying issues and communicating to management to adjust timelines.',
   },
 ]
 
@@ -159,13 +171,13 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      'Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.',
-    imgPath: '/images/exp1.png',
-    logoPath: '/images/logo1.png',
+      'Joining Adaptive through the graduate program and continuing to become a seasoned developer working on delivering cutting edge frontends for institutional trading applications for over 3 years has given me a excellent technical foundation and expert level skills.',
+    imgPath: '/images/logos/adaptive.svg',
+    logoPath: '/images/logos/adaptive-small.svg',
     title: 'Frontend Developer',
-    date: 'January 2023 - Present',
+    date: 'September 2021 - October 2024',
     responsibilities: [
-      'Developed and maintained user-facing features for the Hostinger website.',
+      'Worked in a team of a mid and senior frontend developers, building sophisticated, high performance trading UIs using React at the core, React Router for routing, Redux for state management, Websockets to communicate with the backend, AG Grid to display and manage incoming and outgoing trades, ',
       'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
       'Optimized web applications for maximum speed and scalability.',
     ],

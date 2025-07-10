@@ -34,30 +34,74 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
           {/** LEFT */}
+
           <div ref={project1Ref} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde" />
+              <a
+                href="https://www.cmegroup.com/markets/brokertec/brokertec-quote.html"
+                target="_blank"
+              >
+                <img src="/images/project-images/BrokerTecQuote.webp" alt="BrokerTec Quote" />
+              </a>
             </div>
             <div className="text-content">
-              <h2> On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+              <h2>
+                <a
+                  href="https://www.cmegroup.com/markets/brokertec/brokertec-quote.html"
+                  target="_blank"
+                  className="underline"
+                >
+                  BrokerTec Quote
+                </a>{' '}
+                Real Time Low Latency RFQ Trading Application
+              </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, TailwindCSS for fast user friendly experience.
+                An app built with <strong>React</strong> at the core, <strong>Redux</strong> for
+                efficient and robust state management, <strong>React Router</strong> for navigation,{' '}
+                <strong>AG Grid</strong> for fast user friendly grids, <strong>Websockets</strong>{' '}
+                for real time updates and messaging between the UI and Server,{' '}
+                <strong>Material UI</strong>, for consistent and reusable component styling.
               </p>
             </div>
           </div>
           {/** RIGHT */}
           <div className="project-list-wrapper overflow-hidden ">
             <div ref={project2Ref} className="project">
-              <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="Library Management Platform" />
+              <div className="image-wrapper bg-[#e2e2e2]">
+                <a href="https://www.reactiveanalytics.co.uk/" target="_blank">
+                  <img
+                    src="/images/project-images/ReactiveAnalytics.webp"
+                    alt="Reactive Analytics"
+                  />
+                </a>
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>
+                <a
+                  href="https://www.reactiveanalytics.co.uk/"
+                  target="_blank"
+                  className="underline"
+                >
+                  Reactive Analytics
+                </a>{' '}
+                Stock Tracking Application Built With <strong>React</strong>
+              </h2>
             </div>
             <div ref={project3Ref} className="project">
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="YC Directory" />
+              <div className="image-wrapper bg-[#e2e2e2]">
+                <a href="https://github.com/TimurJ/Padre-Ginos" target="_blank">
+                  <img src="/images/project-images/PadreGinos.webp" alt="Padre Ginos" />
+                </a>
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>
+                <a
+                  href="https://github.com/TimurJ/Padre-Ginos"
+                  target="_blank"
+                  className="underline"
+                >
+                  Padre Gino's
+                </a>{' '}
+                Pizzeria Application Built With <strong>React</strong>
+              </h2>
             </div>
           </div>
         </div>
