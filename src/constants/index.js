@@ -215,16 +215,18 @@ const expCards = [
   },
 
   {
-    review:
-      'Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.',
-    imgPath: '/images/exp3.png',
-    logoPath: '/images/logo3.png',
-    title: 'React Native Developer',
-    date: 'March 2019 - May 2020',
+    review: `During my time at City University studying Computer Science, I have develop a deep understanding of core computer science courses, from Programming Paradigms
+     to Data Structures, it equipped me with the passion and the tools to succeed in my career as a software developer.`,
+    imgPath: '/images/logos/city-university.svg',
+    logoPath: '/images/logos/city-university-small.png',
+    title: 'Computer Science BSc',
+    date: 'September 2017 - September 2020',
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      'Improved app performance and user experience through code optimization and testing.',
-      'Coordinated with the product team to implement features based on feedback.',
+      `Covering different programming paradigms from Functional Programming to Object Oriented with practical examples, coding coursework and examinations.`,
+      `Working on a group project in a team of five people for 6 months developing a library book keeping application, using Git and GitHub for collaboration,
+       Java as the main programming language for the UI and the Backend and mySQL for the Database.`,
+      `Developing a procedurally generated 2D maze platforming game in Unity using C#, with no prior experience, I had to learn everything from scratch applying
+       all of the foundational programming concepts I had learned to date. Managed to successfully create the game and finish the project.`,
     ],
   },
 ]
