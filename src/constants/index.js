@@ -114,57 +114,46 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: 'React Developer',
-    imgPath: '/images/logos/react.png',
+    name: 'React',
+    imgPath: '/images/logos/react.svg',
   },
   {
-    name: 'Python Developer',
-    imgPath: '/images/logos/python.svg',
+    name: 'TypeScript',
+    imgPath: '/images/logos/typescript.svg',
   },
   {
-    name: 'Backend Developer',
-    imgPath: '/images/logos/node.png',
+    name: 'TanStack Router/Query',
+    imgPath: '/images/logos/tanstack.webp',
   },
   {
-    name: 'Interactive Developer',
-    imgPath: '/images/logos/three.png',
+    name: 'Redux',
+    imgPath: '/images/logos/redux.svg',
   },
-  {
-    name: 'Project Manager',
-    imgPath: '/images/logos/git.svg',
-  },
-]
 
-const techStackIcons = [
   {
-    name: 'React Developer',
-    modelPath: '/models/react_logo-transformed.glb',
-    scale: 1,
-    rotation: [0, 0, 0],
+    name: 'AG Grid',
+    imgPath: '/images/logos/ag-grid.webp',
   },
   {
-    name: 'Python Developer',
-    modelPath: '/models/python-transformed.glb',
-    scale: 0.8,
-    rotation: [0, 0, 0],
+    name: 'Node.js',
+    imgPath: '/images/logos/node-js.svg',
   },
   {
-    name: 'Backend Developer',
-    modelPath: '/models/node-transformed.glb',
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: 'NPM',
+    imgPath: '/images/logos/npm.svg',
+  },
+
+  {
+    name: 'Next.js',
+    imgPath: '/images/logos/next-js.svg',
   },
   {
-    name: 'Interactive Developer',
-    modelPath: '/models/three.js-transformed.glb',
-    scale: 0.05,
-    rotation: [0, 0, 0],
+    name: 'Docker',
+    imgPath: '/images/logos/docker.svg',
   },
   {
-    name: 'Project Manager',
-    modelPath: '/models/git-svg-transformed.glb',
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: 'GitHub',
+    imgPath: '/images/logos/github.svg',
   },
 ]
 
@@ -218,7 +207,7 @@ const expCards = [
     review: `During my time at City University studying Computer Science, I have develop a deep understanding of core computer science courses, from Programming Paradigms
      to Data Structures, it equipped me with the passion and the tools to succeed in my career as a software developer.`,
     imgPath: '/images/logos/city-university.svg',
-    logoPath: '/images/logos/city-university-small.png',
+    logoPath: '/images/logos/city-university-small.webp',
     title: 'Computer Science BSc',
     date: 'September 2017 - September 2020',
     responsibilities: [
@@ -323,7 +312,6 @@ export {
   expLogos,
   testimonials,
   socialImgs,
-  techStackIcons,
   techStackImgs,
   navLinks,
 }
