@@ -4,6 +4,7 @@ import HeroExperience from '../components/HeroModels/HeroExperience'
 import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import LinkButton from '../components/LinkButton'
 
 const Hero = () => {
   useGSAP(() => {
@@ -47,7 +48,15 @@ const Hero = () => {
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi, I'm Timur a Frontend Specialist based in London with a passion for tech.
             </p>
-            <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
+            <div className="flex flex-col gap-10 md:flex-row ">
+              <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
+              <LinkButton
+                className="md:w-80 md:h-16 w-60 h-12"
+                id="github-button"
+                text="See my GitHub"
+                url="https://github.com/TimurJ"
+              />
+            </div>
           </div>
         </header>
         {/**RIGHT: 3D MODEL */}

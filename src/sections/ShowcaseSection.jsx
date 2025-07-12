@@ -60,7 +60,7 @@ const ShowcaseSection = () => {
                 efficient and robust state management, <strong>React Router</strong> for navigation,{' '}
                 <strong>AG Grid</strong> for fast user friendly grids, <strong>Websockets</strong>{' '}
                 for real time updates and messaging between the UI and Server,{' '}
-                <strong>Material UI</strong>, for consistent and reusable component styling.
+                <strong>Styled Components</strong>, for consistent and reusable component styling.
               </p>
             </div>
           </div>
