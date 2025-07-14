@@ -83,24 +83,34 @@ const ShowcaseSection = () => {
                 >
                   Reactive Analytics
                 </a>{' '}
-                Stock Tracking Application Built With <strong>React</strong>
+                Stock Tracking Application Built With <strong>React</strong>. Check on{' '}
+                <a
+                  href="https://github.com/TimurJ/stock-tracker-react"
+                  target="_blank"
+                  className="underline"
+                >
+                  GitHub
+                </a>
               </h2>
             </div>
             <div ref={project3Ref} className="project">
               <div className="image-wrapper bg-[#e2e2e2]">
-                <a href="https://github.com/TimurJ/Padre-Ginos" target="_blank">
+                <a href="https://padre-ginos-new.vercel.app/" target="_blank">
                   <img src="/images/project-images/PadreGinos.webp" alt="Padre Ginos" />
                 </a>
               </div>
               <h2>
+                <a href="https://padre-ginos-new.vercel.app/" target="_blank" className="underline">
+                  Padre Gino's
+                </a>{' '}
+                Pizzeria Application Built With <strong>React</strong>. Check on{' '}
                 <a
-                  href="https://github.com/TimurJ/Padre-Ginos"
+                  href="https://github.com/TimurJ/padre-ginos-new"
                   target="_blank"
                   className="underline"
                 >
-                  Padre Gino's
-                </a>{' '}
-                Pizzeria Application Built With <strong>React</strong>
+                  GitHub
+                </a>
               </h2>
             </div>
           </div>
