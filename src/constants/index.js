@@ -161,7 +161,7 @@ const expCards = [
     imgPath: '/images/logos/frontend-masters.webp',
     logoPath: '/images/logos/frontend-masters-small.webp',
     title: 'Sabbatical/Upskilling',
-    date: 'October 2024 - Present',
+    date: 'June 2025 - Present',
     responsibilities: [
       `Completing the Beginner Frontend Developer path, taking the initiative to build upon and solidify my foundational knowledge. Built multiple standalone
        HTML and CSS centric projects using the latest industry standards and methodologies, which culminated in a final Wordle clone project using HTML,
@@ -182,7 +182,7 @@ const expCards = [
     imgPath: '/images/logos/adaptive.svg',
     logoPath: '/images/logos/adaptive-small.svg',
     title: 'Frontend Developer',
-    date: 'September 2021 - October 2024',
+    date: 'September 2021 - January 2025',
     responsibilities: [
       `Working in a team of a mid and senior frontend developers, building sophisticated, high performance trading UI's using React and TypeScript at the core,
        React Router for routing, Redux for state management, Websockets to communicate with the backend, AG Grid to display and manage incoming and outgoing trades,
