@@ -160,8 +160,8 @@ const expCards = [
         hooks, TypeScript advanced types, generics and much more.`,
     imgPath: '/images/logos/frontend-masters.webp',
     logoPath: '/images/logos/frontend-masters-small.webp',
-    title: 'Sabbatical/Upskilling',
-    date: 'June 2025 - Present',
+    title: 'Professional Development',
+    date: '2025 - Present',
     responsibilities: [
       `Completing the Beginner Frontend Developer path, taking the initiative to build upon and solidify my foundational knowledge. Built multiple standalone
        HTML and CSS centric projects using the latest industry standards and methodologies, which culminated in a final Wordle clone project using HTML,
@@ -182,7 +182,7 @@ const expCards = [
     imgPath: '/images/logos/adaptive.svg',
     logoPath: '/images/logos/adaptive-small.svg',
     title: 'Frontend Developer',
-    date: 'September 2021 - January 2025',
+    date: '2021 - 2025',
     responsibilities: [
       `Working in a team of a mid and senior frontend developers, building sophisticated, high performance trading UI's using React and TypeScript at the core,
        React Router for routing, Redux for state management, Websockets to communicate with the backend, AG Grid to display and manage incoming and outgoing trades,
@@ -204,8 +204,8 @@ const expCards = [
      to Data Structures, it equipped me with the passion and the tools to succeed in my career as a software developer.`,
     imgPath: '/images/logos/city-university.svg',
     logoPath: '/images/logos/city-university-small.webp',
-    title: 'Computer Science BSc',
-    date: 'September 2017 - September 2020',
+    title: 'Computer Science BSc 2.1',
+    date: '2017 - 2020',
     responsibilities: [
       `Covering different programming paradigms from Functional Programming to Object Oriented with practical examples, coding coursework and examinations.`,
       `Working on a group project in a team of five people for 6 months developing a library book keeping application, using Git and GitHub for collaboration,

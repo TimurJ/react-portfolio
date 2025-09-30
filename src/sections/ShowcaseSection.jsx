@@ -95,17 +95,20 @@ const ShowcaseSection = () => {
             </div>
             <div ref={project3Ref} className="project">
               <div className="image-wrapper bg-[#e2e2e2]">
-                <a href="https://padre-ginos-new.vercel.app/" target="_blank">
-                  <img src="/images/project-images/PadreGinos.webp" alt="Padre Ginos" />
+                <a href="https://tj-mode.vercel.app/" target="_blank">
+                  <img
+                    src="/images/project-images/mode.webp"
+                    alt="Landing page for Mode issue tracking app"
+                  />
                 </a>
               </div>
               <h2>
-                <a href="https://padre-ginos-new.vercel.app/" target="_blank" className="underline">
-                  Padre Gino's
+                <a href="https://tj-mode.vercel.app/" target="_blank" className="underline">
+                  Mode
                 </a>{' '}
-                Pizzeria Application Built With <strong>React</strong>. Check on{' '}
+                Issue Tracking Application Built With <strong>Next.js</strong>. Check on{' '}
                 <a
-                  href="https://github.com/TimurJ/padre-ginos-new"
+                  href="https://github.com/TimurJ/next.js-mode-application"
                   target="_blank"
                   className="underline"
                 >
